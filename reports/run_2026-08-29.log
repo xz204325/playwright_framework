@@ -1,0 +1,14 @@
+2026-08-29 00:35:24.838 | INFO     | pages.base_page:navigate:12 - 🌐 导航至: https://www.saucedemo.com
+2026-08-29 00:35:27.962 | INFO     | pages.login_page:login:11 - 🔐 执行登录操作，账号: standard_user
+2026-08-29 00:35:27.963 | INFO     | pages.base_page:fill:20 - ⌨️ 输入框: #user-name | 输入值: standard_user | 意图: 输入用户名
+2026-08-29 00:35:29.073 | INFO     | pages.base_page:fill:20 - ⌨️ 输入框: #password | 输入值: secret_sauce | 意图: 输入密码
+2026-08-29 00:35:29.083 | INFO     | pages.base_page:click:16 - 🖱️ 点击元素: #login-button | 意图: 点击登录按钮
+2026-08-29 00:35:35.407 | INFO     | tests.test_smoke:test_valid_login_redirects_to_inventory:8 - 📍 校验登录后URL
+2026-08-29 00:35:36.070 | INFO     | pages.base_page:assert_visible:35 - ✅ 断言可见: .app_logo | 校验App Logo出现
+2026-08-29 00:37:49.923 | INFO     | pages.base_page:navigate:12 - 🌐 导航至: https://www.saucedemo.com
+2026-08-29 00:37:57.540 | INFO     | pages.login_page:login:11 - 🔐 执行登录操作，账号: standard_user
+2026-08-29 00:37:57.540 | INFO     | pages.base_page:fill:20 - ⌨️ 输入框: #user-name | 输入值: standard_user | 意图: 输入用户名
+2026-08-29 00:37:57.612 | INFO     | pages.base_page:fill:20 - ⌨️ 输入框: #password | 输入值: secret_sauce | 意图: 输入密码
+2026-08-29 00:37:57.629 | INFO     | pages.base_page:click:16 - 🖱️ 点击元素: #login-button | 意图: 点击登录按钮
+2026-08-29 00:38:01.862 | INFO     | tests.test_smoke:test_valid_login_redirects_to_inventory:8 - 📍 校验登录后URL
+2026-08-29 00:38:01.863 | INFO     | pages.base_page:assert_visible:35 - ✅ 断言可见: .app_logo | 校验App Logo出现
